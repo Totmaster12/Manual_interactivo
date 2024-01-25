@@ -1,0 +1,141 @@
+img#universidad{
+    width: 96px;
+    float: left;
+}
+img#barrio{
+width: 159px;
+float: right;
+}
+header{
+    display: table;
+    background: rgba(2, 2, 2, 0.9);
+    width: 99%;
+    position:sticky;
+    clear: both;
+    z-index: 100;
+}
+
+nav{
+float:left;
+}
+
+nav ul {
+list-style:none;
+overflow:hidden;
+}
+
+nav ul li{
+float: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+}
+
+nav ul li a{
+display:block;
+padding: 20px;
+color: #ffffff;
+text-decoration: none;        
+margin: auto;
+}
+
+nav ul li:hover {
+background: #eca023;
+
+}
+h1{
+text-align: center;
+color:rgb(255, 255, 255);
+float: none;
+position: static;
+font-family:cursive;
+font-size: 57px;
+padding: 60px;
+}
+
+main{
+margin: 0px;
+padding: auto;
+font-family:cursive;
+}
+body{
+background-image:linear-gradient(rgba(140, 144, 153, 0.7),rgba(81, 79, 85, 0.7)),url("img/Hexa.avif");
+background-size: cover;
+width: 100%;  
+}
+
+p{
+text-align: center;
+font-size: 22px;
+}
+
+p#obj{
+float: left;
+text-align: left;
+
+}
+h2{
+font-size: 35px;
+}
+
+div{
+background:  rgba(2, 2, 2, 0.5);
+font-family:cursive;
+color: rgb(255, 255, 255);
+}
+
+ul li#especifico{
+    list-style: none;
+    font-size: 22px;
+}
+
+ul li#cont{
+    font-size: 22px;
+    float: left;
+    padding: 7px;
+}
+
+
+ul li#glosario{
+    font-size: 22px;
+}
+ul li#aut{
+font-size: 22px;
+list-style: none;
+}
+
+img#ini{
+display:block;
+margin:auto;
+width: 400px;
+}
+img#intro{
+    display:block;
+    margin:auto;
+    width: 500px;
+}
+
+img#des{
+    padding: 30px;
+    width: 250px;
+}
+
+img#paño{
+    padding: 30px;
+    width: 250px;
+}
+
+img#alco{
+    padding: 30px;
+    width: 250px;
+}
+
+img#pinc{
+    padding: 30px;
+    width: 250px;
+}
+
+img#glo{
+    display:block;
+    width: 300px;
+    margin:auto;
+}
